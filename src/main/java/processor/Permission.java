@@ -45,8 +45,25 @@ public class Permission {
     public void modifyPermission(File userInputFile, File modifiedFile){
         Map<String, List<ValueAccessSpecific>>userAccessList = FileUtil.parseJson(userInputFile);
 
-        for(Map.Entry<String, List<ValueAccessSpecific>>m : userAccessList.entrySet()){
-            System.out.println(m.getKey());
+        BufferedReader br = new BufferedReader(new FileReader(fXmlFile));
+        String line;
+        StringBuilder sb = new StringBuilder();
+        String currentRole = "";
+        while((line=br.readLine())!= null){
+            if(line.contains("profile")){
+                currentRole = line.replace("<profile>","").replace("</profile>","");
+            }
+            if(line.contains("valueAccess")){
+                System.out.println(currentRole);
+                while(!line.contains("</valueAccess>")){
+                    System.out.println(line);
+                    line=br.readLine();
+                }
+                System.out.println(line);
+                break;
+
+            }
+            sb.append(line.trim());
         }
 
     }
