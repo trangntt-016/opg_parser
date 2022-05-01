@@ -1,3 +1,0 @@
-public enum EPL_ROLE {
-    RENGINEERING_EPL_ROLE
-}
