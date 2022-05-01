@@ -1,0 +1,25 @@
+[
+    {
+      "profile": "REPL_ADMIN",
+      "ValueAccessSpecifics": [
+        {
+          "nodePath": "root/Program/risks",
+          "access": "R"
+        },
+        {
+          "nodePath": "root/director_updates/BaseAudit",
+          "access": "R"
+        }
+      ]
+    },
+    {
+      "profile": "RENGINEERING_EPL_ROLE",
+      "ValueAccessSpecifics": [
+        {
+          "nodePath": "root/Program",
+          "access": "R"
+        }
+      ]
+
+    }
+  ]

@@ -6,7 +6,7 @@
     <xs:include schemaLocation="CommonTypes.xsd"/>
     <xs:annotation>
         <xs:appinfo>
-            <osd:extensions class="com.opg.permission.EPLSchemaExtensions"/>
+            <osd:extensions class="com.opg.processor.EPLSchemaExtensions"/>
             <osd:inheritance>
                 <dataSetInheritance>none</dataSetInheritance>
             </osd:inheritance>
