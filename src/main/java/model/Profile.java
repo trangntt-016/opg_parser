@@ -14,8 +14,8 @@ public class Profile {
     @Expose
     private String profile;
 
-    @SerializedName("valueAccessSpecifics")
+    @SerializedName("valuesAccessSpecifics")
     @Expose
-    private List<ValueAccessSpecific>valueAccessSpecificList;
+    private List<ValueAccessSpecific>valuesAccessSpecifics;
 
 }

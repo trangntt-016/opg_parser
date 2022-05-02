@@ -12,8 +12,8 @@ public class ValueAccessSpecific {
     @Expose
     private String nodePath;
 
-    @SerializedName("access")
+    @SerializedName("valuesAccessSpecific")
     @Expose
-    private String access;
+    private String valuesAccessSpecific;
 
 }

@@ -1,23 +1,23 @@
 [
     {
       "profile": "REPL_ADMIN",
-      "ValueAccessSpecifics": [
+      "valuesAccessSpecifics": [
         {
-          "nodePath": "root/Program/risks",
-          "access": "R"
+          "nodePath": "/root/Program/risks",
+          "valuesAccessSpecific": "R"
         },
         {
-          "nodePath": "root/director_updates/BaseAudit",
-          "access": "R"
+          "nodePath": "/root/project/additional_attributes/it_project_id",
+          "valuesAccessSpecific": "R"
         }
       ]
     },
     {
       "profile": "RENGINEERING_EPL_ROLE",
-      "ValueAccessSpecifics": [
+      "valuesAccessSpecifics": [
         {
-          "nodePath": "root/Program",
-          "access": "R"
+          "nodePath": "/root/project/additional_attributes/it_project_id",
+          "valuesAccessSpecific": "R"
         }
       ]
 

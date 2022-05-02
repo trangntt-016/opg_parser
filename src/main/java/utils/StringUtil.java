@@ -14,6 +14,12 @@ public class StringUtil {
 
     public static String extractKeyFromPath(String path){
         StringBuilder sb = new StringBuilder(path);
-        return sb.substring(0, sb.indexOf("/")).toString();
+        return sb.substring(0, sb.indexOf("/")).toString().trim();
+    }
+
+    public static String extractContentFromNode(String text, String nodeName){
+        String startNode = "<" + nodeName + ">";
+        String endNode = "</" + nodeName + ">";
+        return text.trim().replace(startNode,"").replace(endNode, "");
     }
 }

@@ -40,7 +40,7 @@ public class FileUtil {
     private static Map<String, List<ValueAccessSpecific>>convertFromProfileListToMap(List<Profile>profileList){
         Map<String, List<ValueAccessSpecific>>result = new HashMap<>();
         for(Profile p : profileList){
-            result.put(p.getProfile(), p.getValueAccessSpecificList());
+            result.put(p.getProfile(), p.getValuesAccessSpecifics());
         }
         return result;
     }
