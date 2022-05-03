@@ -16,9 +16,18 @@ import utils.StringUtil;
 public class EPLParser {
     private static final Logger logger = Logger.getLogger(CommonTypeParser.class.getName());
 
-    private List<String>basicTypes = List.of("xs:string", "xs:boolean", "xs:decimal", "xs:dateTime", "xs:int", "xs:date", "osd:color");
+    private List<String>basicTypes = new ArrayList<>();
 
-    public EPLParser(){};
+
+    public EPLParser(){
+        basicTypes.add("xs:string");
+        basicTypes.add("xs:boolean");
+        basicTypes.add("xs:decimal");
+        basicTypes.add("xs:dateTime");
+        basicTypes.add("xs:int");
+        basicTypes.add("xs:date");
+        basicTypes.add("osd:color");
+    };
 
     public Map<String, String> parseEPL(File file, Map<String, List<String[]>>commonTypeDict){
         Map<String, String>output = new HashMap<>();

@@ -16,4 +16,19 @@ public class ValueAccessSpecific {
     @Expose
     private String valuesAccessSpecific;
 
+    public String getNodePath() {
+        return nodePath;
+    }
+
+    public void setNodePath(String nodePath) {
+        this.nodePath = nodePath;
+    }
+
+    public String getValuesAccessSpecific() {
+        return valuesAccessSpecific;
+    }
+
+    public void setValuesAccessSpecific(String valuesAccessSpecific) {
+        this.valuesAccessSpecific = valuesAccessSpecific;
+    }
 }

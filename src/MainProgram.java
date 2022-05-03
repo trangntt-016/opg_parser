@@ -9,11 +9,11 @@ import java.util.Map;
 
 public class MainProgram {
     public static void main(String[] args) {
-        File commonTypeFile = new File("D:\\Projects\\parsing-xml\\src\\main\\java\\files\\CommonTypes.xsd");
-        File eplFile = new File("D:\\Projects\\parsing-xml\\src\\main\\java\\files\\EPL.xsd");
-        File permissionFile = new File("D:\\Projects\\parsing-xml\\src\\main\\java\\files\\AccessRightsByProfile.xml");
-        File userInputJson = new File("D:\\Projects\\parsing-xml\\src\\main\\java\\files\\permissions.json");
-        File modifiedFile = new File("D:\\Projects\\parsing-xml\\src\\main\\java\\files\\All_Profile.xml");
+        File commonTypeFile = new File("D:\\Projects\\parsing-xml\\src\\files\\CommonTypes.xsd");
+        File eplFile = new File("D:\\Projects\\parsing-xml\\src\\files\\EPL.xsd");
+        File permissionFile = new File("D:\\Projects\\parsing-xml\\src\\files\\AccessRightsByProfile.xml");
+        File userInputJson = new File("D:\\Projects\\parsing-xml\\src\\files\\permissions.json");
+        File modifiedFile = new File("D:\\Projects\\parsing-xml\\src\\files\\All_Profile.xml");
         // get the map of common type nodes
         Map<String, List<String[]>> output = new CommonTypeParser().parseCommonType(commonTypeFile);
 

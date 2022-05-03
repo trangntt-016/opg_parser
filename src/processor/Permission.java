@@ -58,7 +58,7 @@ public class Permission {
                     currentProfile = StringUtil.extractContentFromNode(line,"profile");
                     valueAccessSpecificList = userAccessMap.get(currentProfile);
                 }
-                if(line.contains("<valuesAccessSpecifics>")){
+                if(valueAccessSpecificList!=null && line.contains("<valuesAccessSpecifics>")){
                     String oldValueAccess = line;
                     // go to the next line that contains nodePath
                     line = br.readLine();
