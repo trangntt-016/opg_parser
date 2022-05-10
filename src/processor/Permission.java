@@ -1,6 +1,6 @@
 package processor;
 
-import model.ValueAccessSpecific;
+import model.uValueAccessSpecific;
 import parser.CommonTypeParser;
 import utils.FileUtil;
 import utils.StringUtil;
@@ -45,20 +45,20 @@ public class Permission {
     }
 
     public void modifyPermission(File userInputFile, File modifiedFile){
-        Map<String, List<ValueAccessSpecific>>userAccessMap = FileUtil.parseJson(userInputFile);
+        Map<String, List<uValueAccessSpecific>>userAccessMap = FileUtil.parseJson(userInputFile);
 
         try{
             BufferedReader br = new BufferedReader(new FileReader(modifiedFile));
             String line;
             StringBuilder sb = new StringBuilder();
             String currentProfile = "";
-            List<ValueAccessSpecific>valueAccessSpecificList = new ArrayList<>();
+            List<uValueAccessSpecific> uValueAccessSpecificList = new ArrayList<>();
             while((line=br.readLine())!= null){
                 if(line.contains("<profile>")){
                     currentProfile = StringUtil.extractContentFromNode(line,"profile");
-                    valueAccessSpecificList = userAccessMap.get(currentProfile);
+                    uValueAccessSpecificList = userAccessMap.get(currentProfile);
                 }
-                if(valueAccessSpecificList!=null && line.contains("<valuesAccessSpecifics>")){
+                if(uValueAccessSpecificList !=null && line.contains("<valuesAccessSpecifics>")){
                     String oldValueAccess = line;
                     // go to the next line that contains nodePath
                     line = br.readLine();
@@ -67,7 +67,7 @@ public class Permission {
                     // go to the next line that contains valuesAccessSpecific
                     line = br.readLine();
                     oldValueAccess+=line;
-                    Optional<ValueAccessSpecific> valueAccessSpecifics = valueAccessSpecificList.stream().filter(v->v.getNodePath().contains(nodePath)).findFirst();
+                    Optional<uValueAccessSpecific> valueAccessSpecifics = uValueAccessSpecificList.stream().filter(v->v.getNodePath().contains(nodePath)).findFirst();
                     if(valueAccessSpecifics.isPresent()){
                         Character oldAccess = line.split("<valuesAccessSpecific>")[1].charAt(0);
                         oldValueAccess = oldValueAccess.replace(("<valuesAccessSpecific>" + oldAccess + "</valuesAccessSpecific>"),"<valuesAccessSpecific>" +valueAccessSpecifics.get().getValuesAccessSpecific()  + "</valuesAccessSpecific>");

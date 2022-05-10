@@ -3,9 +3,8 @@ package utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.google.gson.stream.JsonReader;
 import model.Profile;
-import model.ValueAccessSpecific;
+import model.uValueAccessSpecific;
 
 import java.io.*;
 import java.lang.reflect.Type;
@@ -19,7 +18,7 @@ import java.util.logging.Logger;
 
 public class FileUtil {
     private static final Logger logger = Logger.getLogger(FileUtil.class.getName());
-    public static Map<String, List<ValueAccessSpecific>> parseJson(File jsonFile){
+    public static Map<String, List<uValueAccessSpecific>> parseJson(File jsonFile){
         List<Profile> profileList = new ArrayList<>();
         try{
             FileReader reader = new FileReader(jsonFile);
@@ -37,8 +36,8 @@ public class FileUtil {
         return convertFromProfileListToMap(profileList);
     }
 
-    private static Map<String, List<ValueAccessSpecific>>convertFromProfileListToMap(List<Profile>profileList){
-        Map<String, List<ValueAccessSpecific>>result = new HashMap<>();
+    private static Map<String, List<uValueAccessSpecific>>convertFromProfileListToMap(List<Profile>profileList){
+        Map<String, List<uValueAccessSpecific>>result = new HashMap<>();
         for(Profile p : profileList){
             result.put(p.getProfile(), p.getValuesAccessSpecifics());
         }
