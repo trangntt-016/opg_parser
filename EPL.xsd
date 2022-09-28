@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--XML schema generated from EBX(R) DMA instance [reference=EPL] on Tue Apr 26 07:55:53 EDT 2022 by user [nguyethi].-->
+<!--XML schema generated from EBX(R) DMA instance [reference=EPL] on Fri May 13 13:56:00 EDT 2022 by user [nguyethi].-->
 <xs:schema xmlns:osd="urn:ebx-schemas:common_1.0" xmlns:fmt="urn:ebx-schemas:format_1.0" xmlns:ebxbnd="urn:ebx-schemas:binding_1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ebxs="urn:ebx-schemas:session_1.0">
     <xs:import namespace="urn:ebx-schemas:common_1.0" schemaLocation="http://schema.orchestranetworks.com/common_1.0.xsd"/>
     <xs:import namespace="urn:ebx-schemas:session_1.0" schemaLocation="http://schema.orchestranetworks.com/session_1.0.xsd"/>
-    <xs:include schemaLocation="CommonTypes.xsd"/>
+    <xs:include schemaLocation="urn:ebx:module:opg-mdm:/WEB-INF/ebx/schemas/CommonTypes.xsd"/>
     <xs:annotation>
         <xs:appinfo>
-            <osd:extensions class="com.opg.processor.EPLSchemaExtensions"/>
+            <osd:extensions class="com.opg.permission.EPLSchemaExtensions"/>
             <osd:inheritance>
                 <dataSetInheritance>none</dataSetInheritance>
             </osd:inheritance>
@@ -6240,6 +6240,9 @@ A trigger creates users and assigns role to individuals that fall under any any 
                                         </xs:element>
                                         <xs:element name="org_id" type="xs:string" minOccurs="0" maxOccurs="1">
                                             <xs:annotation>
+                                                <xs:documentation xml:lang="en-US">
+                                                    <osd:label>Reporting to Org</osd:label>
+                                                </xs:documentation>
                                                 <xs:appinfo>
                                                     <osd:otherFacets>
                                                         <osd:tableRef>
@@ -6269,8 +6272,16 @@ A trigger creates users and assigns role to individuals that fall under any any 
                                         <xs:element name="NeedMyTimeAccess" type="xs:boolean" minOccurs="0" maxOccurs="1" default="true">
                                             <xs:annotation>
                                                 <xs:documentation xml:lang="en-US">
+                                                    <osd:label>Check for MyTime Access</osd:label>
                                                     <osd:description>Boolean value for the trigger to check whether or not an employee's MyTime enter value matter for that org and role</osd:description>
                                                 </xs:documentation>
+                                                <xs:appinfo>
+                                                    <osd:defaultView>
+                                                        <hidden>true</hidden>
+                                                        <hiddenInSearch>true</hiddenInSearch>
+                                                        <hiddenInViews>true</hiddenInViews>
+                                                    </osd:defaultView>
+                                                </xs:appinfo>
                                             </xs:annotation>
                                         </xs:element>
                                     </xs:sequence>

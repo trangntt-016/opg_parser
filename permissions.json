@@ -1,0 +1,802 @@
+[
+    {
+      "profile": "REPL_BD_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_BD_EDIT",
+      "valuesAccessSpecifics": [
+      	{
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_CO_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_CO_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_CP_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_CP_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_DC_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_DC_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_DIRECTOR",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_DIRECTOR",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_IT_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_MANAGER",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_MP_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_MP_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NE_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NE_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NN_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NN_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NR_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_NR_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_PM_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_PM_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_RE_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_RE_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_RG_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_RG_EDIT",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_SC_ADMIN",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_SC_EDIT",
+      "valuesAccessSpecifics": [
+       {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "REPL_VP",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "ROPGAdmin",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "RTechAdmin",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    },
+    {
+      "profile": "RVENDOR_EPL_ACCESS",
+      "valuesAccessSpecifics": [
+        {
+          "nodePath": "/root/milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "D"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/milestone_variance_calcl",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/cm_outage_code_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/key_milestones/br_key_milestone_cm_released_activity_val",
+          "valuesAccessSpecific": "R"
+        },
+        {
+          "nodePath": "/root/attributes/OutageCode",
+          "valuesAccessSpecific": "R"
+        }
+      ]
+    }
+  ]
